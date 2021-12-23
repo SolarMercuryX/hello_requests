@@ -29,11 +29,11 @@ def main():
     # res = requests.get('https://httpbin.org/get', params=payload)
     # print(res.text)
 
-    headers = {'user-agent' : 'my-app/0.0.1'}
-    res = requests.get('https://httpbin.org/headers', headers=headers)
-    print(res.text)
-    print(res.request.headers)
-    print(res.headers)
+    # headers = {'user-agent' : 'my-app/0.0.1'}
+    # res = requests.get('https://httpbin.org/headers', headers=headers)
+    # print(res.text)
+    # print(res.request.headers)
+    # print(res.headers)
 
 if __name__ == '__main__':
     start_time = time.perf_counter()
